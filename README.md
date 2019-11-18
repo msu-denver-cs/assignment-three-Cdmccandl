@@ -1,10 +1,9 @@
 # README
 Conor McCandless
-Assignment 2:
-added validations to each model. assumed that length for each should be less than 2
-and value presence should be true.
-
-added search bars to each view by creating a search function in each controller
-and calling this seach function in the view index for each model.
-
-still working on testing and fixing odd bugs, (car create doesnt work, part destroy doesnt work)
+Assignment 3:
+added devise gem for authentication of the user. added a simple navbar through layouts/application.html.erb
+I mostly followed this guide here for setting up devise https://guides.railsgirls.com/devise
+I am impressed about how easy it is to implement a user login feature through a rails gem as this would traditionally be a more
+difficult task to implement. The navbar was also easier than expected as the html code is applied through all of the views in
+rails. 
+Could add more to navbar and look of page in the future.
