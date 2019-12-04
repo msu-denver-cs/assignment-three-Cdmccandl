@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   devise_for :users
+  
   resources :parts do
    collection do
      get 'search'
